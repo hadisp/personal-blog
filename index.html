@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./asset/css/uikit-rtl.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./asset/js/uikit.min.js"></script>
+    <script src="./asset/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>index</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="uk-height-viewport uk-background-cover uk-text-center mod-bg" data-uk-img>
+        <div class="uk-padding">
+            <nav class="uk-navbar-container mod-bg-white uk-padding-small uk-padding-remove-vertical" data-uk-navbar>
+                <div id="modal-full" class="uk-modal-full uk-modal" data-uk-modal>
+                    <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport>
+                        <button class="uk-modal-close-full" type="button" data-uk-close></button>
+                        <form class="uk-search uk-search-large">
+                            <input class="uk-search-input uk-text-center" type="search" placeholder="جستجو" autofocus>
+                        </form>
+                    </div>
+                </div>
+                <div class="uk-hidden@m uk-flex uk-flex-middle">
+                    <div class="uk-navbar-right ">
+                        <a class="uk-navbar-toggle mod-nav-toggle" href="#" data-uk-toggle="target: #offcanvas">
+                            <span data-uk-navbar-toggle-icon></span>
+                        </a>
+                    </div>
+                    <div id="offcanvas" data-uk-offcanvas="flip:false; overlay: true">
+                        <div class="uk-offcanvas-bar uk-flex uk-flex-column mod-header-side">
+                            <div class="">
+                                <div class="uk-align-left">
+                                    <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+                                </div>
+                                <div class="uk-flex uk-flex-middle">
+                                    <a class="mod-h-icon uk-navbar-toggle uk-float-right" href="#modal-full" data-uk-search-icon data-uk-toggle></a>
+                                    <a href="#" class="mod-h-icon uk-float-right uk-margin-left"><img src="asset/img/icon-telegram.svg" alt="" data-uk-svg></a>
+                                    <a href="#" class="mod-h-icon"><img src="asset/img/ico-instagram.svg" alt="" data-uk-svg></a>
+                                </div>
+                            </div>
+                            <hr class="uk-margin-remove">
+                            <ul class="uk-list uk-text-right" data-uk-margin>
+                                <li class="uk-active mod-l"><a href="#" data-uk-scroll><span data-uk-icon="icon:home"></span> صفحه اصلی </a></li>
+                                <li class="mod-l"><a href="#service" data-uk-scroll><span data-uk-icon="icon:thumbnails"></span> خدمات </a></li>
+                                <li class="mod-l"><a href="#portfolio" data-uk-scroll><span data-uk-icon="icon:image"></span> نمونه کارها</a></li>
+                                <li class="mod-l"><a href="#about" data-uk-scroll><span data-uk-icon="icon:info"></span> درباره </a></li>
+                                <li class="mod-l" ><a href="#contact" data-uk-scroll> <span data-uk-icon="icon:mail"></span> تماس </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-subnav uk-navbar-right uk-visible@m" data-uk-margin>
+                    <a class="mod-nav-icon uk-navbar-toggle" href="#modal-full" data-uk-search-icon data-uk-toggle></a>
+                    <a href="#" class="mod-nav-icon uk-margin-left"><img src="asset/img/icon-telegram.svg" alt="" data-uk-svg></a>
+                    <a href="#" class="mod-nav-icon"><img src="asset/img/ico-instagram.svg" alt="" data-uk-svg></a>
+                </div>
+                <div class="uk-flex-center uk-navbar-center uk-visible@m">
+                    <div class="uk-subnav uk-subnav-divider mod-menu mod-black">
+                        <a href="#" data-uk-scroll> صفحه اصلی </a>
+                        <a href="#service" data-uk-scroll> خدمات </a>
+                        <a href="#portfolio" data-uk-scroll> نمونه کارها</a>
+                        <a href="#about" data-uk-scroll> درباره</a>
+                        <a href="#contact" data-uk-scroll> تماس </a>
+                    </div>
+                </div>
+
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li><img src="asset/img/logo.png" height="100" width="100" alt="" ></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle">
+            <div>
+                <div class="uk-margin-xlarge-bottom">
+                    <h1 class="mod-white">حدیث پوررضا</h1>
+                    <h2 class="mod-white">طراحی انواع سایت با وردپرس و طراحی فرانت اند</h2>
+                </div>
+                <a class="uk-margin-xlarge-top uk-animation-toggle" href="#target" data-uk-scroll tabindex="0">
+                    <div class="mod-circle uk-flex uk-flex-middle uk-flex-center uk-light uk-align-center uk-margin-large-top uk-animation-slide-bottom">
+                        <span data-uk-icon="icon:chevron-down;ratio:4"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-background-cover" id="service" data-src="asset/img/asset/img/bg5.jpg">
+        <div class="uk-container uk-container-small">
+            <div class="uk-child-width-1-3@s uk-grid-large uk-grid-divider" data-uk-grid data-uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 350">
+                <div class="uk-text-center">
+                    <img src="asset/img/html.png" class="mod-service-img" data-uk-img>
+                    <h3 class="uk-h4">برنامه نویسی فرانت اند</h3>
+                    <p>این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.</p>
+                </div>
+
+                <div class="uk-text-center">
+                    <img src="./asset/img/phplogo.png" class="mod-service-img" alt="" data-uk-img>
+                    <h3 class="uk-h4">برنامه نویسی بک اند</h3>
+                    <p>این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.</p>
+                </div>
+
+                <div class="uk-text-center">
+                    <img src="asset/img/wordpress-logo-svgrepo-com.svg" class="mod-service-img" alt="" data-uk-svg>
+                    <h3 class="uk-h4">طراحی سایت با cms</h3>
+                    <p>این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="target">
+        <div class=" uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-text-center uk-light uk-height-large"
+             data-src="asset/img/asset/img/bg5.jpg"
+             data-srcset="asset/img/bg5.jpg"
+             data-sizes="(min-width: 650px) 650px, 100vw" data-uk-img data-uk-parallax="bgy:500">
+            <div class="uk-container-small" data-uk-scrollspy="target: >*; cls:uk-animation-fade; delay: 350">
+                <h2>طراحی سایت و برنامه</h2>
+                <p class="uk-margin uk-margin-medium" >این نوشته برای تست است .این نوشته باری تست است.این نوشته .این نوشته با.این نوشته برای تست است .</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-large mod-portfolio" id="portfolio">
+        <div class="uk-container uk-text-center">
+            <h2 class="uk-h3">نمونه کارهای انجام شده</h2>
+            <div class="mod-text-color" data-uk-icon="icon:chevron-down;ratio:3"></div>
+            <div class="uk-child-width-1-3@m uk-child-width-1-2@s uk-child-width-1-1 uk-grid-small uk-margin-large"  data-uk-grid data-uk-scrollspy="target: > a; cls:uk-animation-fade; delay: 350">
+                <a href="#" class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="./asset/img/SEO-Company.jpg"  alt="">
+                        <div class="uk-transition-fade uk-margin-remove uk-position-cover uk-position-small mod-transition uk-flex uk-flex-center uk-flex-middle">
+                            <div class="uk-padding-small uk-background-muted mod-radius">
+                                <span class="mod-black">سایت شماره 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="./asset/img/SEO-Company.jpg"  alt="">
+                        <div class="uk-transition-fade uk-margin-remove uk-position-cover uk-position-small mod-transition uk-flex uk-flex-center uk-flex-middle">
+                            <div class="uk-padding-small uk-background-muted mod-radius">
+                                <span class="mod-black">سایت شماره 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="./asset/img/SEO-Company.jpg"  alt="">
+                        <div class="uk-transition-fade uk-margin-remove uk-position-cover uk-position-small mod-transition uk-flex uk-flex-center uk-flex-middle">
+                            <div class="uk-padding-small uk-background-muted mod-radius">
+                                <span class="mod-black">سایت شماره 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="./asset/img/SEO-Company.jpg"  alt="">
+                        <div class="uk-transition-fade uk-margin-remove uk-position-cover uk-position-small mod-transition uk-flex uk-flex-center uk-flex-middle">
+                            <div class="uk-padding-small uk-background-muted mod-radius">
+                                <span class="mod-black">سایت شماره 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="./asset/img/SEO-Company.jpg"  alt="">
+                        <div class="uk-transition-fade uk-margin-remove uk-position-cover uk-position-small mod-transition uk-flex uk-flex-center uk-flex-middle">
+                            <div class="uk-padding-small uk-background-muted mod-radius">
+                                <span class="mod-black">سایت شماره 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="./asset/img/SEO-Company.jpg"  alt="">
+                        <div class="uk-transition-fade uk-margin-remove uk-position-cover uk-position-small mod-transition uk-flex uk-flex-center uk-flex-middle">
+                            <div class="uk-padding-small uk-background-muted mod-radius">
+                                <span class="mod-black">سایت شماره 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="uk-section  mod-bg-blue" id="about">
+        <div class="uk-container">
+            <div class="uk-child-width-1-2@m" data-uk-grid>
+                <div>
+                    <h2 class="uk-h3 mod-white uk-text-right@m uk-text-center">درباره</h2>
+                    <hr class="mod-short-hr">
+                    <p class="mod-white uk-text-right@m uk-text-center uk-margin-medium-top">این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.این نوشته برای تست است . این نوشته برای تست است.</p>
+                </div>
+                <div>
+                    <h2 class="mod-white uk-h3 uk-text-right@m uk-text-center" >مهارت ها</h2>
+                    <hr class="mod-short-hr">
+                    <div>
+                        <div >
+                            <div class="mod-white uk-margin-remove-bottom uk-flex uk-flex-left" ><div>html,css,js</div></div>
+                            <progress class="mod-progress uk-margin-remove-top" max="100" value="80" dir="ltr"></progress>
+                        </div>
+                        <div >
+                            <div class="mod-white uk-margin-remove-bottom uk-flex uk-flex-left" ><div>bootstrap,laravel</div></div>
+                            <progress class="mod-progress uk-margin-remove-top" max="100" value="50" dir="ltr"></progress>
+                        </div>
+                        <div >
+                            <div class="mod-white uk-margin-remove-bottom uk-flex uk-flex-left" ><div>wordpress</div></div>
+                            <progress class="mod-progress uk-margin-remove-top" max="100" value="70" dir="ltr"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-background-cover uk-height-viewport uk-flex uk-flex-middle" id="contact" data-src="asset/img/white-computer-background-5.jpg"
+         data-uk-img data-uk-parallax="bgy:500">
+        <div class="uk-padding">
+            <div class="uk-container">
+                <!--<div class="uk-text-center">-->
+                <!--<h2 class="uk-h3 uk-text-center">راه های ارتباطی</h2>-->
+                <!--<div class="mod-text-color uk-text-center" data-uk-icon="icon:chevron-down;ratio:3"></div>-->
+                <!--</div>-->
+                <div class="uk-child-width-1-2@s uk-grid" data-uk-grid>
+                    <div>
+                        <form>
+                            <div data-uk-grid>
+                                <div class="uk-width-1-2">
+                                    <input class="uk-input mod-input" type="text" placeholder="نام">
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <input class="uk-input mod-input" type="text" placeholder=" نام خانوادگی">
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <input class="uk-input mod-input" type="text" placeholder="شماره تلفن">
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <input class="uk-input mod-input" type="mail" placeholder="ایمیل">
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <textarea class="uk-textarea mod-input" rows="5" placeholder="پیام"></textarea>
+                                </div>
+                                <div class="uk-width-1-1 uk-flex uk-flex-right@s uk-flex-center">
+                                    <a class="uk-button mod-btn-form">ارسال پیام</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="uk-flex uk-flex-middle uk-flex-center">
+                        <div class="mod-contact uk-padding-large uk-box-shadow-medium">
+                            <div>
+                                <div class="uk-flex uk-flex-middle">
+                                    <img class="mod-text-color uk-margin" src="asset/img/ico-phone.svg"  data-uk-svg>
+                                    <div>
+                                        <span class="mod-white"> شماره تماس : </span><span class="mod-white"> 091111111111 </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img class="mod-text-color uk-margin" src="asset/img/ico-mail.svg" data-uk-svg> <span class="mod-white"> ایمیل : </span><span class="mod-white"> email@email.com </span>
+                                </div>
+                                <div>
+                                    <img class="mod-text-color uk-margin" src="asset/img/ico-address.svg" data-uk-svg> <span class="mod-white"> آدرس : </span><span class="mod-white"> این نوشته برای تست است </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mod-bg" data-uk-grid>
+        <div class="uk-width-auto uk-align-center uk-margin-remove-bottom">
+            <a class="uk-animation-toggle" href="#target" data-uk-scroll tabindex="0">
+                <div class="mod-circle uk-flex uk-flex-middle uk-flex-center uk-light uk-align-center uk-margin-large-top uk-animation-slide-top">
+                    <span data-uk-icon="icon:chevron-up;ratio:4"></span>
+                </div>
+            </a>
+        </div>
+        <div class="uk-width-1-1">
+            <hr class="uk-margin-remove" >
+            <p class="uk-h5 uk-light uk-text-center uk-margin-remove uk-padding-small">All Rights reserved </p>
+        </div>
+    </div>
+</body>
+</html>

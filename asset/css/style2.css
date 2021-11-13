@@ -1,0 +1,14 @@
+@font-face{font-family:'Shabnam';src:url("../fonts/Shabnam.eot");src:url("../fonts/Shabnam.eot#iefix")format("embedded-opentype");src:url("../fonts/Shabnam.woff")format("woff");src:url("../fonts/Shabnam.ttf")format("truetype");}
+h1,h2,h3,h4,h5,p,span,input,ul,p,div,li,a,button,card{font-family: Shabnam !important;}
+::-webkit-scrollbar {width: 2px;}::-webkit-scrollbar-track {background: #f1f1f1;}::-webkit-scrollbar-thumb {background: #888;}::-webkit-scrollbar-thumb:hover {background: #555;}
+.hs-body{background-image: url(../img/back.jpg);border: 5px #8d633c solid}
+.hs-container{border-radius: 20px;min-height: 450px;}
+.hs-container-left{float: left;border-radius: 20px;height: 430px;width: 50px;min-height: 430px;max-height: 430px;margin-left: -15px;margin-top: 50px;background-color: #fff;opacity: 0.5;}
+.hs-container-right{float: right;border-radius: 20px;height: 430px;width: 50px;min-height: 430px;max-height: 430px;margin-right: -15px;margin-top: 50px;background-color: #fff;opacity: 0.5;}
+.mod-slide-nav li{display:inline;padding: 10px}
+.mod-slide-nav span{font-weight: bold;font-size:large !important;color: #fff !important;cursor: pointer;-webkit-transition: color 1s;-moz-transition: color 1s;-o-transition: color 1s;transition: color 1s;}
+.mod-slide-nav .hs-active {color: #8d633c !important;margin-top: -20px}
+.hs-text{text-align: justify; text-align-last: center;max-height: 450px;padding: 0 10px;direction: ltr;}
+.hs-title{color: #8d633c;}
+
+
